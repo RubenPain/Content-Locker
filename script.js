@@ -8,7 +8,6 @@ function validate() {
   var varData = 'email='+email; 
   }
   if (x){
-    slc.html("<iframe width='1280' height='720' src='https://www.youtube.com/embed/6FbjYX213Nk' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe>");
     $("#sociallocker-links").css("display", "none");
 		$("#sociallocker-overlay").css("display", "none"); 
 		$("#sociallocker-content").css("top", "0");
