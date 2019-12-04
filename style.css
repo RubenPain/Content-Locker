@@ -1,0 +1,83 @@
+@import "https://use.fontawesome.com/releases/v5.0.10/css/all.css";
+#sociallocker {
+	background-color: #EEEEEE;
+	text-align: center;
+	position: relative;
+	max-width: 640px;
+	height: 360px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: hidden;
+	border-radius:10px;
+}
+#sociallocker-overlay {
+	background-color: rgba(0,0,0,0.6);
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	transition: all 0.2s ease;
+}
+#sociallocker-overlay i {
+	margin-right: 10px;
+}
+#sociallocker:hover #sociallocker-overlay {
+	top: -100%;
+	transition: all 0.2s linear;
+}
+#sociallocker:hover #sociallocker-content {
+	top: 100%;
+	transition: all 0.2s linear;
+}
+
+#sociallocker-overlay,
+#sociallocker-content, 
+#sociallocker-mail {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	top: 0;
+	left: 0;
+}
+#sociallocker-content {
+	background-color: #ccc;
+	transition: all 0.2s ease;
+}
+#sociallocker-mail{
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+#input{
+  height: 2.5em;
+  border: 2px solid #00ad68;
+  margin-left:auto;
+  margin-right:2em;
+  margin-top:1%;
+  padding-left:0.2em;
+}
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #00ad68;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-right:auto;
+}
+
+button:hover {background-color: #3e8e41}
+
+button:active {
+  background-color: #00ad68;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
