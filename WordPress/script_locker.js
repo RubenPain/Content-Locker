@@ -1,3 +1,4 @@
+//Create this file on your theme's js folder 
 $('body').on('click', '#btn-sub-yt',function() {
   var email = $('#input').val();
   var slc = $('#sociallocker-content')
