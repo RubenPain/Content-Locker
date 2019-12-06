@@ -15,7 +15,7 @@ function mon_action() {
 
 	$email = $_POST['email'];
 	
-	wp_mail('jeremy@okeenea.com', 'Someone watched your video', $email);
+	wp_mail('yourmail@mail.com', 'Someone watched your video', $email);
 
 	die();
 }
